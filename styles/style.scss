@@ -67,6 +67,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 @import './header';
 .contact button{
-    @include flexCenter(row, red);
+    // @include flexCenter(row, red);
     // background: $primaryBtn;
+    // extending , inheriting styles of another eelement
+    @extend header;
+    color: red;
+    
 }

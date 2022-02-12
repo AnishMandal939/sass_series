@@ -106,3 +106,13 @@ and now you can use it differently for every places
 @include flexCenter(column,red); //inside header, and can change for button 
 </code>
  </p>
+
+ ##  INHERITANCE OF PROPERTY THAT IS USED IN ONE'S COMPOENTS AND WANT TO USE INSIDE ANOTHER COMPONENT ELEMENTS 
+
+ <P>
+rather than copying all styles that we want to use to another elements for same styling we can use something called <code> @extend name_of_element; </code>
+<br />
+and you can also define your own styles by extending too
+ <br />
+ remember: style sheet work from up to down anything that is written down is given priority
+ </P>
