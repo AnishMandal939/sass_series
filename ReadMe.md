@@ -68,3 +68,41 @@ underscore-filename.scss
 </code>
 
 </code>
+
+## ADD CUSTOM PARAMETERS BY ADDING PARENTHESIS WITH FUNCTION
+
+<P>syntax </P>
+<code>
+@mixin functionName(add_parameter){
+<!-- adding parameter is just creating variable so to create variable use dololar sign ($) with variable name -->
+}
+</code>
+
+<span>Overall</span>
+<code>
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction; // now just use direction where you want to use and put value i.e $direction: column;
+}
+
+</code>
+
+<p>
+and now you can use it differently for every places
+<code>
+@mixin flexCenter($direction, $background){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction;
+    background: $background;
+}
+
+<!-- to use it -->
+@include flexCenter(column,red); //inside header, and can change for button 
+</code>
+ </p>

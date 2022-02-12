@@ -1,15 +1,17 @@
 // since using dFlex multiple times, we can put it inside functions
 // to avoid repetition of code
-@mixin flexCenter(){
+@mixin flexCenter($direction,$background ){
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: $direction;
+    background: $background;
 }
 @import './variables';
 header{
-    @include flexCenter(); // this is the same as writing flexCenter(); 
-    background: lightblue;
+    @include flexCenter(column, skyblue); // this is the same as writing flexCenter(); 
+    // background: lightblue;
     height: 100vh;
     color: $textColor;
     button{
