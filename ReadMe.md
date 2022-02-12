@@ -116,3 +116,14 @@ and you can also define your own styles by extending too
  <br />
  remember: style sheet work from up to down anything that is written down is given priority
  </P>
+
+ ## CALCULATIONS
+<code>
+    <!-- +, -, /, * -->
+    <!-- eg: -->
+    width: 100% - 20%; 
+</code>
+
+<footer>
+This was it for sass everything you need in basics 
+</footer>

@@ -72,5 +72,6 @@
     // extending , inheriting styles of another eelement
     @extend header;
     color: red;
-    
+    // calculating the size of the button
+    width: calc(100% - 2rem);
 }

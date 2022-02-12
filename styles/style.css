@@ -48,5 +48,6 @@ header button::before, .contact button button::before {
 
 .contact button {
   color: red;
+  width: calc(100% - 2rem);
 }
 /*# sourceMappingURL=style.css.map */
