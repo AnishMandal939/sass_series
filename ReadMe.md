@@ -35,3 +35,13 @@ header{
         background: $primaryBtn;
     }
 }
+
+
+** Now what if i want to add hover for button 
+you can use like 
+&:hover{
+    background:red;
+}
+and same thing for after and before pseudoclasses
+
+for these type of effects just use the "& " symbol and just use the colon " : " or " :: "
