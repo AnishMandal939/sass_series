@@ -1,0 +1,30 @@
+// creating variables
+$primaryBtn: purple;
+$textColor: rgb(58, 42, 42);
+
+header{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    color: $textColor;
+}
+
+// normally we use something like in plain css
+// header button{
+//     background: gray;
+// }
+// .contact button{
+//     background: green;
+// }
+
+// but in scss we can use variables 
+header button{
+    background: $primaryBtn;
+}
+.contact button{
+    background: $primaryBtn;
+}
+// nromally we would use a mixin but for this example we will use a function instead 
+// header button{
+
+// }
