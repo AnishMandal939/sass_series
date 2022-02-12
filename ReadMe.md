@@ -52,3 +52,19 @@ rules to create file like component is
 underscore-filename.scss
 (_header.scss) -> create file for all header css effects and to use it import like in react does
 <code>@import './header';</code> // importing, we dont need the extension .scss it will recognize automatically
+
+
+## FUNCTIONS " MIXINS" MIXINS IS LIKE FUNCTIONS IN JS
+
+<p>syntax</p>
+<code>
+@mixin functionName {
+    <!-- add your effect here what you want to put  -->
+    <!-- i'm puttin' display flex all property inside functions, header.scss -->
+}
+<p>To use it </p>
+<code>
+@include flexCenter(); // @include functionName();
+</code>
+
+</code>

@@ -21,9 +21,9 @@
 // header button{
 //     background: $primaryBtn;
 // }
-.contact button{
-    background: $primaryBtn;
-}
+// .contact button{
+//     background: $primaryBtn;
+// }
 // nromally we would use a mixin but for this example we will use a function instead 
 // header button{
 
@@ -63,6 +63,10 @@
 // }
 
 // creating header component for header styles
+@import './variables';
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 @import './header';
-@import './variables';
+.contact button{
+    @include flexCenter();
+    background: $primaryBtn;
+}
