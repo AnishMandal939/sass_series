@@ -2,12 +2,12 @@
 $primaryBtn: purple;
 $textColor: rgb(58, 42, 42);
 
-header{
-    background: lightblue;
-    display: flex;
-    justify-content: center;
-    color: $textColor;
-}
+// header{
+//     background: lightblue;
+//     display: flex;
+//     justify-content: center;
+//     color: $textColor;
+// }
 
 // normally we use something like in plain css
 // header button{
@@ -18,9 +18,9 @@ header{
 // }
 
 // but in scss we can use variables 
-header button{
-    background: $primaryBtn;
-}
+// header button{
+//     background: $primaryBtn;
+// }
 .contact button{
     background: $primaryBtn;
 }
@@ -28,3 +28,15 @@ header button{
 // header button{
 
 // }
+
+// nesting header and header button
+
+header{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    color: $textColor;
+    button{
+        background: $primaryBtn;
+    }
+}

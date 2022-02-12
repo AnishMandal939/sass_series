@@ -1,3 +1,7 @@
+.contact button {
+  background: purple;
+}
+
 header {
   background: lightblue;
   display: -webkit-box;
@@ -10,10 +14,6 @@ header {
 }
 
 header button {
-  background: purple;
-}
-
-.contact button {
   background: purple;
 }
 /*# sourceMappingURL=style.css.map */
