@@ -45,3 +45,10 @@ you can use like
 and same thing for after and before pseudoclasses
 
 for these type of effects just use the "& " symbol and just use the colon " : " or " :: "
+
+
+### another main and most beautiful thing with sass is that is you can work by creating component 
+rules to create file like component is 
+underscore-filename.scss
+(_header.scss) -> create file for all header css effects and to use it import like in react does
+<code>@import './header';</code> // importing, we dont need the extension .scss it will recognize automatically

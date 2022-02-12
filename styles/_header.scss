@@ -1,0 +1,30 @@
+header{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    color: $textColor;
+    button{
+        background: $primaryBtn;
+        // for hover we can use the following
+        &:hover{
+            background: green;
+        }
+        // for after and before we can use the following
+        &::after{
+            content: "after";
+            padding: 20px;
+            margin: 1rem;
+            cursor: pointer;
+            width: 100%;
+            object-fit: cover;
+            background: url("https://img.search.brave.com/124s5XpPSX3gg5CDVJH_ph7cjVvibcW9t0wKsgDOFQI/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Q/WWlwSl9oU25jdWdN/MlN3blppdHZnSGFF/SyZwaWQ9QXBp");
+        }
+        &::before{
+            content: "before";
+            background:red;
+            border-radius: 15px 40px 30px 0;
+            margin: 1rem;
+            cursor: progress;
+        }
+    }
+}
